@@ -10,7 +10,9 @@ end_time: "8:00"
 
 #event organiser details
 organiser: "Gian Uy"
+post_type: "meetup"
 registration: "http://www.meetup.com/TriadJUG/events/233122317/"
+event_id: "233122317"
 
 ---
 

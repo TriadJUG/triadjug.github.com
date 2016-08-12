@@ -23,7 +23,11 @@ layout: default
     {{ content }}
   </div>
 
-    {% if page.registration  %}
+    {% if page.registration and page.post_type == "meetup"  %}
+        <div>
+            <a href='{{ page.registration }}' data-event="{{ page.event_id }}" class="mu-rsvp-btn">RSVP</a>
+        </div>
+    {% elsif page.registration %}
         <div>
             <a href='{{ page.registration }}' class="button button-primary">Register</a>
         </div>
@@ -34,3 +38,7 @@ layout: default
     {% endif %}
 
 </article>
+{% if page.post_type == "meetup" %}
+{% include meetup-script.html %}
+{% endif %}
+
