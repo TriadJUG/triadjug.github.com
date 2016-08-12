@@ -1,3 +1,9 @@
+# TriadJUG Website
+
+This is the source repository of the [TriadJUG website](http://triadjug.org). Scaffolding thru [Jekyll](https://jekyllrb.com/) The theme is powered by [Evento](http://evento.davidboyne.co.uk).
+
+
+---
 # Evento
 
 Evento is a minimal, responsive theme for Jekyll. The projects allows people, groups or companies to host and show a list future and past events.
@@ -9,15 +15,6 @@ Evento is a minimal, responsive theme for Jekyll. The projects allows people, gr
 * Shows future and past events
 * Easy for people to add events
 
----
-
-### Install and Test
-
-1. Download or clone repo `git clone git@github.com:boyney123/evento.git`
-2. Enter the folder: `cd evento/`
-4. Start Jekyll server: `jekyll serve`
-
-Access via: [http://localhost:4000](http://localhost:4000)
 
 ---
 
