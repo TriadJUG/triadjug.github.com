@@ -3,13 +3,22 @@ layout: default
 cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 ---
 
+<script>
+$(document).ready(function() {
+  $(".meetup").each(function(index) {
+    if($(this).children("a").length==0) {
+      $(this).hide();
+    }
+  })
+});
 
+</script>
 
 <div class="home">
     
     {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
 
-    <div class="clearfix">
+    <div class="clearfix meetup">
 
       <h1 class="event-time-heading fix-top">Future {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
 
@@ -35,7 +44,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
       {% endfor %}
     </div>
-    <div class="clearfix">
+    <div class="clearfix meetup">
 
       <h1 class="event-time-heading">Past {% if site.event_label %} {{site.event_label}} {% else %} Events {% endif %} </h1>
       {% for post in site.posts %}
@@ -60,5 +69,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
       {% endfor %}
     </div>
+
+
 
 </div>
