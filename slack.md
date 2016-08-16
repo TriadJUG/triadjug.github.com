@@ -1,6 +1,7 @@
 ---
 layout: page
 navigation_title: Slack
+cover: "/images/slack-cover2.gif"
 title: Slack with us!
 permalink: /slack/
 ---
@@ -24,3 +25,10 @@ We use [slack](https://slack.com/is) for our forums, discussions, interactive se
 	    <input type="submit" value="Send">
 	</form> 
 </div>
+
+## Already signed up? 
+
+Head on to our [slack page](https://triadjug.slack.com) (<https://triadjug.slack.com>)
+
+
+[![slack logo](/images/slack-logo-sm.png)](https://triadjug.slack.com)
