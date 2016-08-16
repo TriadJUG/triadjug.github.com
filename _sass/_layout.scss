@@ -392,6 +392,11 @@
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));
   }
+
+  div#envelope{
+  width: 80%;
+  margin: 10px 30% 10px 11%;
+  }
 }
 
 @include media-query($on-palm) {
@@ -400,6 +405,29 @@
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
   }
+
+  input[type=submit]
+  {
+  padding:4px;
+  font-size:12px;
+  }
+  input[type=text],input[type=email]{
+  padding: 8px;
+  }
+  label{
+  font-size:12px;
+  }
+  h2{
+  font-size:15px;
+  }
+  p{
+  font-size:12px;
+  }
+  div#envelope{
+  width: 80%;
+  margin: 10px 30% 10px 11%;
+  }
+
 }
 
 .event-time-heading.fix-top{
