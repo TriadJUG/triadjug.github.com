@@ -5,11 +5,14 @@ title: Slack with us!
 permalink: /slack/
 ---
 
-You can connect with us thru slack. 
+We use (slack)[https://slack.com/is] for our forums, discussions, interactive sessions, and chats!
 
-<form action="https://formspree.io/your@email.com"
+##Get an invite 
+
+<form action="https://formspree.io/social@triadjug.org"
       method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
+    Your Name:&nbsp;<input type="text" name="name"> <br />
+    Your email:&nbsp;<input type="email" name="_replyto">
+    <input type="hidden" name="_next" value="http://triadjug.org/slack-thanks/" />
     <input type="submit" value="Send">
 </form> 
