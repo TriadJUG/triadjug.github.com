@@ -11,7 +11,7 @@ title: TriadJUG (Java User Group)
 #What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
 event_label: Meetups
 
-description: > # this means to ignore newlines until "baseurl:"
+description: Java User Group for the NC Piedmont Triad (Greensboro, Winston-Salem, High Point) and surrounding areas.
   
 
 baseurl: "" # the subpath of your site, e.g. /blog

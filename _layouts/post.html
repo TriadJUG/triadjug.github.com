@@ -13,6 +13,11 @@ layout: default
     {% endif %}
     <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
     <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
+    {% if page.registration and page.post_type == "meetup"  %}
+    <div>
+            <a href='{{ page.registration }}' data-event="{{ page.event_id }}" class="mu-rsvp-btn">RSVP</a>
+        </div>
+    {% endif %}
   </header>
 
   {% if organiser.photo %}
@@ -25,7 +30,7 @@ layout: default
 
     {% if page.registration and page.post_type == "meetup"  %}
         <div>
-            <a href='{{ page.registration }}' data-event="{{ page.event_id }}" class="mu-rsvp-btn">RSVP</a>
+            <a href='{{ page.registration }}' class="button button-primary">RSVP</a>
         </div>
     {% elsif page.registration %}
         <div>
